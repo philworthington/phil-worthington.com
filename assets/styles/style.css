@@ -418,14 +418,12 @@ footer img {
 }
 
 #back-btn {
-	display: block;
 	margin: 65px auto 40px;
 }
 
 
 #back-btn a {
 	position: relative;
-	display: block;
 	text-decoration: none;
 	color: #999;
 	text-align: center;
@@ -433,7 +431,6 @@ footer img {
 }
 
 .arrow2 {
-	display: inline-block;
 	position: relative;
 	vertical-align: middle;
 }
