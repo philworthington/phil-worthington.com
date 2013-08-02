@@ -15,20 +15,31 @@
 	<body>
 		<header id="header">
 			<div id="top">
-				<a href="index.html"><img src="assets/img/custom-logo-workof.png" alt="Logo - The Work of Phil Worthington"></a>
+				<div id="headerlinks">
+					<a href="index.html"><img src="assets/img/custom-pw-w4.png" alt="Logo - The Work of Phil Worthington"></a>
+					<ul id="nav">
+						<li><a href="#about" class="navitem">ABOUT</a></li>
+						<li><a href="#contact" class="navitem">CONTACT</a></li>
+					</ul>
+				</div>
 			</div>
-			<div id="logo"></div>
-			<div id="view-work">
-				<a href="#portfolio" id="view">View Work <br><img src="assets/img/arrow.png" class="arrow"></a>
+			<div id="logo">
+				<div id="logoimg"></div>
+				<div id="line"></div>
 			</div>
-			<!-- NAV not currently in use 
-			<ul id="nav">
-				<li><a href="#" class="navitem">WORK</a></li>
-				<li><a href="#" class="navitem">ABOUT</a></li>
-				<li><a href="#" class="navitem">CONTACT</a></li>
-			</ul>
-			-->
 		</header>
+			<section id="about">
+				<div id="arrowlines"></div>
+				<p>
+					I'm a designer specializing in custom made lettering and design for print and the web. This is a sample of some of my work, with updates coming soon. Check back often and thanks for stopping by.
+				</p>
+				<div id="view-work">
+					<a href="#portfolio" id="view">VIEW WORK <br><img src="assets/img/arrow4.png" class="arrow"></a>
+				</div>
+			<!--<div id="desk">
+			<div id="desklogo"></div>
+			</div>-->
+		</section>
 		<section id="portfolio">
 			<div class="container">
 				<ul class="grid effect" id="grid">
@@ -170,24 +181,20 @@
 				</script>
 				<script>
 					$(document).ready(function(){
+						$('#top').localScroll();
 						$('#view-work').localScroll();
 						$('#footer').localScroll();
 					});
 				</script>
-		<section id="about">
-				<p>
-					I'm a designer specializing in custom made lettering and design for print and the web. This is a sample of some of my work, with updates coming soon. Check back often and thanks for stopping by.
-				</p>
-		</section>
+		<div id="separator"></div>
 		<section id="contact">
 			<h3>I'm open to new opportunities, you can find me on <a href="http://dribbble.com/philworthington" target="_blank">dribbble</a> and contact me using the button below.</h3>
 			<a href="mailto:phil.worthington22@gmail.com" class="btn">
 					Email Me</a>
 		</section>
 		<footer id="footer">
-			<p> &copy; 2013 Phil Worthington. </p>
-			<a href="#header" class="totop">
-				<img src="assets/img/logo2.png" />
+			<div id="livefree"></div>
+			<p> &copy; 2013 Phil Worthington. &nbsp; | &nbsp; <img src="assets/img/logo2copy.png" alt="PW Logo"> &nbsp; | &nbsp; <a href="#header" class="totop">Back To Top.</a></p>
 		</footer>
 	</body>
 </html>
